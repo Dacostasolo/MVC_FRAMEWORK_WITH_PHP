@@ -1,0 +1,18 @@
+{
+  "name": "dacosta/mvc_with_php",
+  "autoload": {
+    "psr-4": {
+      "Dacosta\\MvcWithPhp\\": "src/",
+      "app\\": "./"
+    }
+  },
+  "authors": [
+    {
+      "name": "Dacosta Solomon",
+      "email": "dacsolo10@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.4"
+  }
+}
